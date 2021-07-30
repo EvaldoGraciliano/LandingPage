@@ -154,7 +154,7 @@
 /* Youtube  */
 
 .botao5{
-  background-color: #3CB1B4;
+  background-color: #6e6d6d;
   
 }
 
@@ -168,6 +168,7 @@
 
 .youtube a {
   text-decoration: none;
+ 
 }
 
 .youtube{
@@ -178,4 +179,30 @@
   height: 40px;
   width: 40px;
   margin:5px;
+}
+
+.youtube a, .spotfy a,
+.tidal a, .deezer a, .itunes a {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+}
+
+
+
+#cta h1{
+  
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+ 
+}
+
+#cta{
+  margin-top:7px;
+  margin-bottom: 7px;
+}
+
+#cta h1 span {
+  color:green;
 }
