@@ -206,3 +206,24 @@
 #cta h1 span {
   color:green;
 }
+
+
+#cta>h1::after{
+  content: "👇🏻";
+  opacity: 1;
+  animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+  0%,80% {
+    opacity:1;
+  }
+
+  50% {
+    opacity:0
+  }
+
+  100% {
+    opacity: 2;
+  }
+}
