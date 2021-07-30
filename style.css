@@ -7,13 +7,21 @@
 	vertical-align: baseline;
 }
 
-
+.imagem{
+  height: 100%;
+}
 
 .imagem img{
   width: 100vw;
+  margin: 0px;
+  padding: 0px;
   
 }
  
+.video{
+  margin-top: -5px;
+} 
+
 #imgcta img{
   max-height: 372px;
   width:100% ;
