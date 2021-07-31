@@ -10,7 +10,7 @@
 body{
  
     overflow-x: hidden;
-
+    
   
 }
 .imagem{
@@ -140,6 +140,7 @@ body{
 .botao4{
   background-color: #A154E2;
   
+  
 }
 
 .tidal a button{
@@ -153,18 +154,23 @@ body{
 
 .tidal a {
   text-decoration: none;
+  
 }
 
 .tidal{
   margin-top: 5px;
+  border-radius: 15px;
 }
 
 #tidal {
   height: 40px;
   width: 40px;
   margin:5px;
-  border-radius: 5px;
+ 
+ 
 }
+
+
 
 /* Youtube  */
 
@@ -251,20 +257,14 @@ h1{
 
 
 @media(min-width: 900px){
-  body{
-    
-  }
+
 
   .video{
-    margin-top: 10px;
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-top:-5px;
-    
+    margin-bottom:5px;
   }
-
-
 
 } 
 
@@ -275,8 +275,9 @@ main{
   align-items: center;
   background-color: #2F2F2F;
   padding:10px;
-  width:100%;
+ 
   margin-top:-5px;
+ 
 
 
 }
@@ -302,4 +303,9 @@ footer span {
 
 .imagem{
   margin-top:-5px;
+  width: 100%;
+}
+
+#topo{
+  width: 100%;
 }
