@@ -12,7 +12,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,800;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
   <title>Faz o 20X </title>
+  
 
   <!-- Facebook Pixel Code -->
 <script>
@@ -35,12 +39,14 @@
 </head>
 <body>
   <header>
-    <div  class="imagem"> 
-    <img  src="img/bannermobile-min.png" alt="">
-  </div>
+    <div class="imagem">
+    <img id="topo"  src="img/bannermobile-min.png" alt="">
+    <source media="(min-width:500px)" srcset="img/5.png">
+</div>
+  
   
   <div class="video">
-  <iframe width="100%" height="250px" src="https://www.youtube.com/embed/Wp_58D71hGU?&autoplay=1" title="YouTube video player" frameborder="0"; allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe  id="videoyoutube" width="100%" height="250px" src="https://www.youtube.com/embed/Wp_58D71hGU?&autoplay=1" title="YouTube video player" frameborder="0"; allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   </header>
 

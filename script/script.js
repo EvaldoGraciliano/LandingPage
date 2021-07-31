@@ -27,3 +27,18 @@ const titulo = document.querySelector('h1');
 const titulo2 = document.getElementById('20x');
 
 typeWrite(titulo,titulo2);
+
+
+
+
+
+if ($(window).width() > 500) {
+  x  = document.getElementById('topo');
+  x.src='img/5.png'
+
+  video = document.getElementById('videoyoutube');
+  video.width = '500px';
+
+
+
+}
