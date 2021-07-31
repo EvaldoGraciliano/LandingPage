@@ -9,7 +9,7 @@ function typeWrite(elemento,elemento2){
   textoArray.forEach((letra,i)=> {
     setTimeout(function(){
       elemento.innerHTML += letra;
-  }, 75*i)
+  }, 75)
 });
 
 textoArray2.forEach((letra,i)=> {
@@ -30,15 +30,17 @@ typeWrite(titulo,titulo2);
 
 
 
+function responsividade(){
 
-
-if ($(window).width() > 500) {
+if ($(window).width() > 900) {
   x  = document.getElementById('topo');
   x.src='img/5.png'
 
   video = document.getElementById('videoyoutube');
-  video.width = '500px';
-
-
+  video.width= '500px';
 
 }
+
+}
+
+responsividade();

@@ -7,6 +7,11 @@
 	vertical-align: baseline;
 }
 
+body{
+ 
+    overflow-x: hidden;
+    height: 120vh;
+}
 .imagem{
   height: 100%;
 }
@@ -244,7 +249,7 @@ h1{
 
 @media(min-width: 500px){
   body{
-    background-color: red;
+    
   }
 
   .video{
