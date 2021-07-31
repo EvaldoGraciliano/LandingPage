@@ -15,6 +15,7 @@ body{
 }
 .imagem{
   height: 100%;
+  margin-top: -1;
 }
 
 .imagem img{
@@ -249,7 +250,7 @@ h1{
 
 
 
-@media(min-width: 500px){
+@media(min-width: 900px){
   body{
     
   }
@@ -259,6 +260,7 @@ h1{
     display: flex;
     text-align: center;
     justify-content: center;
+    margin-top:-5px;
     
   }
 
@@ -274,6 +276,7 @@ main{
   background-color: #2F2F2F;
   padding:10px;
   width:100%;
+  margin-top:-5px;
 
 
 }
@@ -290,8 +293,13 @@ footer p{
 
 footer{
   background-color: #70747749;
+  width:100%;
 }
 
 footer span {
   font-weight: bold;
+}
+
+.imagem{
+  margin-top:-5px;
 }
