@@ -51,6 +51,7 @@ body{
 .botao1{
   background-color: #3cd06e;
   margin-top: 5px;
+  cursor:pointer;
   
   
 }
@@ -81,6 +82,7 @@ body{
 
 .botao2{
   background-color: #f03256;
+  cursor:pointer;
   
 }
 
@@ -110,6 +112,7 @@ body{
 
 .botao3{
   background-color: #476DED;
+  cursor:pointer;
   
 }
 
@@ -139,6 +142,7 @@ body{
 
 .botao4{
   background-color: #A154E2;
+  cursor:pointer;
   
   
 }
@@ -176,6 +180,7 @@ body{
 
 .botao5{
   background-color: #6e6d6d;
+  cursor:pointer;
   
 }
 
@@ -206,6 +211,7 @@ body{
 .tidal a, .deezer a, .itunes a {
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
+  cursor: pointer;
 }
 
 
